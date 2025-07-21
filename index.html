@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SipPinTea</title>
+  <meta name="description" content="SipPinTea - Your neighborhood boba milk tea shop in Hendersonville, TN. Discover our menu, specials, and how to order!" />
+  <link rel="stylesheet" href="SipPinTea.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Bar for better flow (optional but recommended) -->
+  <nav class="navbar" aria-label="Main navigation">
+    <a href="#about" class="nav-link">About Us</a>
+    <a href="#gallery" class="nav-link">Gallery</a>
+    <a href="#contact" class="nav-link">Contact</a>
+    <a href="#visit" class="nav-link">Visit</a>
+  </nav>
+
+  <!-- Full-width banner -->
+  <header class="hero-banner">
+    <section class="brand-title">
+      <h1>Your Neighborhood Boba Tea Shop</h1>
+    </section>
+  </header>
+
+  <!-- Buttons directly beneath the banner -->
+  <section class="banner-buttons">
+    <div class="button-container">
+      <a href="#about" class="btn">About Us</a>
+      <a href="images/Menu.png" class="btn secondary" target="_blank" aria-label="View Menu (PDF)">
+        <i class="fas fa-file-pdf"></i> View Menu
+      </a>
+      <a href="images/SummerDrink2-2025.jpg" class="btn highlight" aria-label="View Specials">Specials</a>
+    </div>
+  </section>
+
+  <main>
+    <!-- About section for context and SEO -->
+    <section id="about" class="about">
+      <h2>About SipPinTea</h2>
+      <p>
+        Welcome to SipPinTea, your cozy local spot for delicious boba milk tea, fruit teas, and more! We’re proud to serve Hendersonville, TN and bring you the freshest flavors and friendliest service.
+      </p>
+    </section>
+
+    <section class="how-to-order">
+      <h2>How to Order</h2>
+      <div class="order-card">
+        <div class="order-step">
+          <i class="fas fa-mug-hot" aria-hidden="true"></i>
+          <h3>1. Pick Your Tea Base</h3>
+          <ul>
+            <li>🧋 Milk Tea</li>
+            <li>🍓 Fruit Tea</li>
+            <li>❄️ Slushes</li>
+            <li>🥤 Smoothies</li>
+          </ul>
+        </div>
+        <div class="order-step">
+          <i class="fas fa-sliders-h" aria-hidden="true"></i>
+          <h3>2. Choose Your Toppings</h3>
+          <ul>
+            <li>🍮 Custards</li>
+            <li>✨ Popping Bobas</li>
+            <li>🟤 Tapioca Boba</li>
+            <li>🍊 Jellies</li>
+          </ul>
+        </div>
+        <div class="order-step">
+          <i class="fas fa-face-smile-beam" aria-hidden="true"></i>
+          <h3>3. Sip & Enjoy!</h3>
+          <p>Visit us in-store and treat yourself to a perfect boba moment.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="gallery" class="gallery">
+      <h2>Our Drinks</h2>
+      <div class="gallery-grid">
+        <img src="images/boba1.jpg" alt="Signature Milk Tea" />
+        <img src="images/boba2.jpg" alt="Strawberry Fruit Tea" />
+        <img src="images/boba3.jpg" alt="Mango Slush" />
+        <!-- Add more images as needed -->
+      </div>
+    </section>
+    
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form action="mailto:sippintea@email.com" method="POST" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+
+    <section id="visit" class="visit">
+      <h2>Come Sip With Us</h2>
+      <p><strong>105 Sanders Ferry Road</strong><br />Hendersonville, TN 37075</p>
+      <p>Sun: 12pm–6pm<br />Mon: 11am–8pm<br />Tues: Closed<br />Wed–Sat: 11am–8pm </p>
+      <div class="buttons">
+        <a href="https://maps.google.com" target="_blank" class="btn" aria-label="Get Directions">Get Directions</a>
+        <a href="tel:6154475270" class="btn secondary" aria-label="Call SipPinTea">Call Us</a>
+      </div>
+    </section>
+  </main>
+    
+  <footer class="footer">
+    <h3>Follow Us @SipPinTea</h3>
+    <div class="socials">
+      <a href="https://www.instagram.com/explore/locations/100345256051824/sippintea/" target="_blank" aria-label="SipPinTea Instagram">
+        <i class="fab fa-instagram" aria-hidden="true"></i> Instagram
+      </a>
+      <a href="https://www.facebook.com/p/SipPinTea-100083373189727/" target="_blank" aria-label="SipPinTea Facebook">
+        <i class="fab fa-facebook" aria-hidden="true"></i> Facebook
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
